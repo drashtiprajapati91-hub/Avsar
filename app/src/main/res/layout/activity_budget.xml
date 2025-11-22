@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Back + Title -->
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="16sp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Budget"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Total Budget -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Your Budget" />
+
+        <EditText
+            android:id="@+id/inputTotalBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:hint="Rs."
+            android:background="@drawable/border_box"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp" />
+        <Button
+            android:id="@+id/saveBudgetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Budget"
+            android:backgroundTint="#80004D"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            />
+
+        <!-- Category SeekBars -->
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Venue" android:textColor="@color/black" />
+        <SeekBar android:id="@+id/seekVenue" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="1000000" />
+        <TextView android:id="@+id/valueVenue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rs.0" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Decoration" android:textColor="@color/black" />
+        <SeekBar android:id="@+id/seekDecoration" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="1000000" />
+        <TextView android:id="@+id/valueDecoration" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rs.0" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Photography" android:textColor="@color/black"/>
+        <SeekBar android:id="@+id/seekPhotography" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="1000000" />
+        <TextView android:id="@+id/valuePhotography" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rs.0" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Catering" android:textColor="@color/black"/>
+        <SeekBar android:id="@+id/seekCatering" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="1000000" />
+        <TextView android:id="@+id/valueCatering" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rs.0" />
+
+        <!-- Donut Chart -->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/budgetChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSaveBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Budget"
+            android:backgroundTint="#80004D"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"/>
+    </LinearLayout>
+</ScrollView>

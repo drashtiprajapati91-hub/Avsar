@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952086418708",
+    "firebase_url": "https://avsar-8accc-default-rtdb.firebaseio.com",
+    "project_id": "avsar-8accc",
+    "storage_bucket": "avsar-8accc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952086418708:android:0e8635b88aed3f6930de01",
+        "android_client_info": {
+          "package_name": "com.example.avsar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952086418708-4butbb3qo2kd0ai4h03ep6bkrb873f3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avsar",
+            "certificate_hash": "05a51294cd4fd353d32bc6e95f60a6324a7e45a3"
+          }
+        },
+        {
+          "client_id": "952086418708-9cq4s6k8cm2ernga6kshbgup5oqk7fdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpcfAI8QJq5z-kxOuRdxqtfcLhdgih2AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952086418708-9cq4s6k8cm2ernga6kshbgup5oqk7fdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

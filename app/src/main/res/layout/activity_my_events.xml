@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Back Button -->
+        <TextView
+            android:id="@+id/textBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Events"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="end"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Event Name -->
+        <TextView
+            android:id="@+id/textEventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marriage"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Event Image -->
+        <ImageView
+            android:id="@+id/imageEvent"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_event_image"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Options List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/itemChecklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Checklist"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/itemGuests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guests"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/itemBudget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Budget"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/itemVendors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vendor Shortlist"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+
+            <TextView
+                android:id="@+id/itemBookings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bookings"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CCCCCC" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

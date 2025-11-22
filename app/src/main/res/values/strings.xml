@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Avsar</string>
+    <string name="name">Name:</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="mobile_number">Mobile Number:</string>
+    <string name="password">Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="facebook_app_id">1418361729460581</string>
+    <string name="facebook_client_token">3264d7785c92d2c4737b375ee6fc7b5b</string>
+    <string name="this_venue_is_already_booked_for_the_selected_dates">⚠️ This venue is already booked for the selected dates.</string>
+    <string-array name="location_array">
+        <item>Wagholi-Pune</item>
+        <item>Kothrud-Pune</item>
+        <item>Baner-Pune</item>
+        <item>Ahmedabad</item>
+        <item>Vadodara</item>
+        <item>Banglore</item>
+        <item>Hyderabad</item>
+        <item>Kerala</item>
+        <item>Tamil-Nadu</item>
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Kakinada</item>
+    </string-array>
+
+
+</resources>

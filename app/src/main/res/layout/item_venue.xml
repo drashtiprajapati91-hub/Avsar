@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardElevation="4dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageVenue"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_venue_placeholder" />
+
+        <ImageView
+            android:id="@+id/iconSave"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/imageVenue"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="-152dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/ic_favorite_border" />
+
+        <TextView
+            android:id="@+id/textVenueName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageVenue"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:text="Venue Name"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_below="@+id/textVenueName"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/textVenueCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textLocation"
+            android:layout_marginTop="6dp"
+            android:text="₹500 per plate"
+            android:textColor="#444444" />
+
+        <TextView
+            android:id="@+id/textVenueCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textVenueCost"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-21dp"
+            android:layout_marginEnd="28dp"
+            android:text="Up to 200 people"
+            android:textColor="#666666" />
+
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/textVenueCapacity"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonEnquiry"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Send enquiry"
+                android:background="@drawable/button_outline_red"
+                android:textColor="#E91E63" />
+
+            <Button
+                android:id="@+id/buttonContact"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="View contact"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#80004D"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

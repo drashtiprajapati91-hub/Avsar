@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/template_card_background">
+
+    <ImageView
+        android:id="@+id/imageTemplate"
+        android:layout_width="156dp"
+        android:layout_height="160dp"
+        android:background="@drawable/image_rounded_bg"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textTemplateTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Template Title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+
+</LinearLayout>
